@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 const ArtistsList = ({allArtists})=>{
+    console.log('')
 
     const list = (values)=>(
         values!=null ?
